@@ -125,6 +125,7 @@ const checkGameStatus = () => {
 
 //eventHandlers
 const handleReset = (e) => {
+    gameIsLive = true;
     xIsNext = true;
     statusDiv.innerHTML = `Player using ${xSymbol} is next!!`;
     statusDiv.style.color = "white";
